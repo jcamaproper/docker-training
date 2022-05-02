@@ -1,6 +1,6 @@
 steps:
 - name: 'gcr.io/cloud-builder/docker'
-args: ['build','-t','gcr.io/go-docker-1996/docker-training','-']
+ args: ['build','-t','gcr.io/go-docker-1996/docker-training','-']
 - name: 'gcr.io/cloud-builder/docker'
-args: ['push','-t','gcr.io/go-docker-1996/docker-training']
+ args: ['push','-t','gcr.io/go-docker-1996/docker-training']
  
